@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+
+.menu a{
+margin-right: 30px; 
+color: #3A3A3A;
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+
+} 
+
+.menu a:hover{
+ text-decoration: underline;
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}
+
+
+.bag{
+margin-left: 25px;
+
+}
