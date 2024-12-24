@@ -7,7 +7,6 @@
 
 
 .about__inner img{
-    width: 100%;
 }
 
 
@@ -30,5 +29,79 @@ text-align: center;
 font-family: "Inter";
 font-size: 40px;
 font-weight: 700;
+text-transform: uppercase;}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+
+.menu a{
+margin-right: 30px; 
+color: #3A3A3A;
+font-family: "Inter";
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+
+} 
+
+.menu a:hover{
+ text-decoration: underline;
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}
+
+
+.bag{
+margin-left: 25px;
+
+}
+
+.find{
+    background-image: url(./images/hotchicks.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.find__text{
+    padding-left: 289px;
+    padding-top: 300px;
+    padding-bottom: 327.43px;
+}
+
+.find__text h2{
+    text-transform: uppercase;
+    color: #FFF;
+font-family: "Inter";
+font-size: 90px;
+font-weight: 700;
+line-height: 85px; /* 94.444% */
 text-transform: uppercase;
+}
+
+.find__text h2 span{
+    color: #FFE4CF;
+}
+
+.find__btn{
+    color: #FFF;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+line-height: 18px; /* 100% */
+text-transform: uppercase;
+padding: 16px 47px;
+background-color: transparent;
+border: 2px solid #FFF;
+transition: all .3s;
+border-radius: 2px;
+}
+
+.find__btn:hover{
+    background-color: #FFF;
+    color: #3A3A3A;
 }
